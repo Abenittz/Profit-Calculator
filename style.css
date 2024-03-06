@@ -1,0 +1,324 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+
+
+
+}
+
+.main-default-container {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.default-container {
+    width: 560px;
+    height: 350px;
+    background: aliceblue;
+    margin: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 10px;
+
+}
+
+.default-title {
+    font-size: 1.5rem;
+    position: relative;
+    top: -15px;
+
+    width: 200px;
+}
+
+h2 {
+    font-size: 1.1em;
+    margin: 5px;
+}
+
+.box {
+    border: none;
+    width: 200px;
+    height: 40px;
+    margin-bottom: 10px;
+    font-size: 1rem;
+    border-radius: 5px;
+    /* background-color: red; */
+
+}
+
+.box:focus {
+    outline: none;
+}
+
+.expense-btn {
+    border: none;
+    background: purple;
+    width: 200px;
+    height: 40px;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.default-expense {
+    padding: 10px;
+    width: 300px;
+    height: fit-content;
+    background: aliceblue;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td,
+th {
+    text-align: left;
+    padding: 5px;
+    font-size: 1.2rem;
+}
+
+tr:nth-child(even) {
+    background-color: #e2e2e2;
+}
+
+
+/* items styling */
+
+.item-box {
+    width: 560px;
+    background-color: aliceblue;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 5px;
+    margin: 10px;
+    position: relative;
+
+}
+
+.title-add {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 100%;
+    padding: 5px 10px;
+}
+
+.add-item {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 0.9rem;
+    width: 70px;
+    border: none;
+    background-color: #1caa19;
+    padding: 5px 5px;
+    border-radius: 5px;
+
+
+}
+
+.add-item:hover {
+    background-color: #1b9418;
+}
+
+.item-title {
+    font-size: 1.5rem;
+}
+
+
+.field {
+    width: 150px;
+    height: 30px;
+    border: none;
+    background: #fff;
+    border-radius: 5px;
+    padding: 10px;
+
+
+}
+
+.field:focus {
+    outline: none;
+}
+
+.input-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 550px;
+    border: 2px solid purple;
+    padding: 10px;
+    text-align: center;
+    background: purple;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+
+}
+
+.edit {
+    border: none;
+    background: lightgrey;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.edit:hover {
+    background: darkgrey;
+
+}
+
+#no {
+    color: white;
+}
+
+.item-quantity {
+    width: 75px;
+}
+
+.item-table {
+    position: absolute;
+    top: 375px;
+    height: fit-content;
+}
+
+.calc-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 550px;
+
+
+
+
+}
+
+.item-calculate {
+    border: none;
+    background: purple;
+    color: #fff;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.item-calculate:hover {
+    background: #720872;
+}
+
+/* goods styling */
+
+.goods-container {
+    width: 560px;
+    background-color: aliceblue;
+    margin: 10px;
+    border-radius: 5px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+}
+
+
+
+
+.goods-input-container {
+    width: 550px;
+    background-color: purple;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.space {
+    border: none;
+    width: 150px;
+    height: 30px;
+    padding: 10px;
+    border-radius: 5px;
+    background: #fff;
+
+}
+
+.space:focus {
+    outline: none;
+}
+
+.goods-btn-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 550px;
+
+
+}
+
+.goods-btn {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 0.9rem;
+    width: 70px;
+    border: none;
+    background-color: #1caa19;
+    padding: 5px 5px;
+    border-radius: 5px;
+    margin: 10px 0px;
+}
+
+.goods-calculate {
+    border: none;
+    background: purple;
+    color: #fff;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+
+}
+
+.total-container {
+    position: absolute;
+    top: 700px;
+    height: fit-content;
+    padding: 10px;
+    width: 300px;
+    height: fit-content;
+    background: aliceblue;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+
+
+
+
+/*javascript styling link*/
+
+.bars-container .hide {
+    overflow: hidden;
+    height: 0px;
+
+}
